@@ -743,3 +743,10 @@ event NotificationsPresentBlinkStop
 	StopEvent NotificationsPresentBlinkLoop 		0.0
 	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.0 0.1
 }
+
+//===========================================
+
+event DamagedPlayer
+{
+	// empty
+}

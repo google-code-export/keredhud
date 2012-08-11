@@ -1,8 +1,10 @@
-Keredhud v1.31
+Keredhud v1.33
 
 To install, unzip the files to your "Steam\steamapps\[username]\team fortress 2\tf" folder.
 
 Change Log:
+
+Version 1.32: Fixed overtime label and payload race progress bar.
 
 Version 1.31: Fixed timer using the wrong font, CTF score limit not showing, and minor clipping issues.
 

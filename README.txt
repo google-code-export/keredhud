@@ -1,3 +1,3 @@
-Keredhud v1.11
+Keredhud v1.2
 
 To install, unzip the files to your "Steam\steamapps\[username]\team fortress 2\tf" folder.

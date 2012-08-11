@@ -206,13 +206,10 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		Linear 0.2 0.4
 
-        Animate PlayerStatusHealthvalue_minmode        Alpha           "255"           Linear 0.0 0.2
-        Animate PlayerStatusHealthvalue_minmode        Alpha           "255"           Linear 0.2 0.4
-
 	RunEvent HudHealthBonusPulseLoop	0.4
 
-	Animate PlayerStatusHealthvalue_minmode alpha 255 linear 0.0 0.01
-	Animate PlayerStatusHealthvalue_minmode FgColor "HudIcon_Green" Accel 0.0 0.0
+	Animate PlayerStatusHealthvalue FgColor "m0recyan" Accel 0.0 0.0
+	Animate SpectatorStatusHealthvalue FgColor "SpecHealthCyan" Accel 0.0 0.0
 }
 
 // call to loop HudHealthBonusPulse
@@ -225,8 +222,9 @@ event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
-	Animate PlayerStatusHealthvalue_minmode alpha 255 linear 0.0 0.0
-	Animate PlayerStatusHealthvalue_minmode fgcolor "m0rewhite" accel 0.0 0.0
+
+	Animate PlayerStatusHealthvalue fgcolor "m0rewhite" accel 0.0 0.0
+	Animate SpectatorStatusHealthvalue FgColor "SpecHealthGreen" Accel 0.0 0.0
 }
 
 //===========================================
@@ -237,10 +235,8 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		Linear 0.125 0.075
 
-        Animate PlayerStatusHealthvalue_minmode         Alpha           "255"           Linear 0.0 0.075
-        Animate PlayerStatusHealthvalue_minmode         Alpha           "255"                     Linear 0.125 0.075
-	Animate PlayerStatusHealthvalue_minmode alpha 255 linear 0.0 0.0
-	Animate PlayerStatusHealthvalue_minmode FgColor "226 0 0 255" linear 0.0 0.0
+	Animate PlayerStatusHealthvalue FgColor "225 0 0 255" linear 0.0 0.0
+	Animate SpectatorStatusHealthvalue FgColor "SpecHealthRed" Accel 0.0 0.0
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -255,8 +251,9 @@ event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
-	Animate PlayerStatusHealthvalue_minmode alpha 255 linear 0.0 0.0
-	Animate PlayerStatusHealthvalue_minmode fgcolor "m0rewhite" accel 0.0 0.0
+
+	Animate PlayerStatusHealthvalue fgcolor "m0rewhite" accel 0.0 0.0
+	Animate SpectatorStatusHealthvalue FgColor "SpecHealthGreen" Accel 0.0 0.0
 }
 
 //===========================================
@@ -322,10 +319,10 @@ event AccountMoneyRemoved
 //activecolor - instantly turn green, fade back to yellow
 event AccountMoneyAdded
 {
-	Animate HudAccount		FgColor	"HudIcon_Green" Linear 0.0 0.0001
+	Animate HudAccount		FgColor	"m0recyan" Linear 0.0 0.0001
 	Animate HudAccount		FgColor	"OrangeDim" Accel 0.0 3.0
 
-	Animate HudAccount		Ammo2Color "HudIcon_Green" Accel 0.0 0.0001
+	Animate HudAccount		Ammo2Color "m0recyan" Accel 0.0 0.0001
 	Animate HudAccount		Ammo2Color "0 0 0 0" Accel 0.0 3.0
 }
 
@@ -405,6 +402,30 @@ event HudSnapShotReminderIn
 {
 	Animate ScreenshotPanel		Position	"c-83 -50"	Linear 0.0 0.001
 	Animate ScreenshotPanel		Position	"c-83 13"	Spline 0.001 0.2
+}
+
+event HudReplayReminderIn	// Places the replay reminder in the same place as the snapshot reminder
+{
+	Animate ReplayReminder		Position	"c-83 -50"	Linear 0.0 0.001
+	Animate ReplayReminder		Position	"c-83 13"	Spline 0.001 0.2
+}
+
+event HudReplayReminderIn2	// Puts the panel below the snapshot panel
+{
+	Animate ReplayReminder		Position	"c-83 -50"	Linear 0.0 0.001
+	Animate ReplayReminder		Position	"c-83 53"	Spline 0.001 0.2
+}
+
+event HudReplayTipIn
+{
+	Animate ReplayTip			Position	"10 -100"	Linear 0.0 0.001
+	Animate ReplayTip			Position	"10 6"		Spline 0.001 0.1
+}
+
+event HudReplayTipOut
+{
+	Animate ReplayTip			Position	"10 6"		Linear 0.0 0.001
+	Animate ReplayTip			Position	"10 -100"	Spline 0.001 0.1
 }
 
 event HudTournamentSetupPanelOpen
@@ -544,4 +565,180 @@ event TeamsFullArrowAnimateEnd
 {
 	StopEvent TeamsFullArrowAnimate 0.0
 	StopEvent TeamsFullArrowAnimateLoop 0.0
+}
+
+//===========================================
+
+event TrainingHudBounce
+{
+	Animate ObjectiveStatusTraining	Position		"c-160 r187"		Linear 0 0
+	Animate ObjectiveStatusTraining	Position		"c-160 r127"		Bounce 0.0 2.0
+}
+
+event TrainingPressSpacebarBlink
+{
+	Animate	PressSpacebarToContinue 	Alpha		"255"		Linear 0.0 0.1
+	Animate	PressSpacebarToContinue 	Alpha		"0"			Linear 0.2 0.1
+		
+	Animate	PressSpacebarToContinue 	Alpha		"255"		Linear 0.4 0.1
+	Animate	PressSpacebarToContinue 	Alpha		"0"			Linear 0.6 0.1
+	
+	Animate	PressSpacebarToContinue 	Alpha		"255"		Linear 0.8 0.1
+	Animate	PressSpacebarToContinue 	Alpha		"0"			Linear 1.0 0.1
+	
+	Animate	PressSpacebarToContinue 	Alpha		"255"		Linear 1.2 0.1
+
+	RunEvent TrainingPressSpacebarBlinkLoop		3.0
+}
+
+event TrainingPressSpacebarBlinkLoop
+{
+	RunEvent TrainingPressSpacebarBlink			0.0
+}
+
+event TrainingPressSpacebarBlinkStop
+{
+	StopEvent TrainingPressSpacebarBlink			0.0
+	StopEvent TrainingPressSpacebarBlinkLoop 		0.0
+}
+
+//===========================================
+
+event IntroMovieContinueBlink
+{
+	Animate	continue 	Alpha		"255"		Linear 0.0 0.1
+	Animate	continue 	Alpha		"0"			Linear 0.2 0.1
+		
+	Animate	continue 	Alpha		"255"		Linear 0.4 0.1
+	Animate	continue 	Alpha		"0"			Linear 0.6 0.1
+	
+	Animate	continue 	Alpha		"255"		Linear 0.8 0.1
+	Animate	continue 	Alpha		"0"			Linear 1.0 0.1
+	
+	Animate	continue 	Alpha		"255"		Linear 1.2 0.1
+
+	RunEvent IntroMovieContinueBlinkLoop		2.0
+}
+
+event IntroMovieContinueBlinkLoop
+{
+	RunEvent IntroMovieContinueBlink			0.0
+}
+
+event IntroMovieContinueBlinkStop
+{
+	StopEvent IntroMovieContinueBlink			0.0
+	StopEvent IntroMovieContinueBlinkLoop 		0.0
+}
+
+//===========================================
+
+event HasMOTDBlink
+{
+	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
+	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.2 0.1
+		
+	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.4 0.1
+	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.6 0.1
+	
+	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.8 0.1
+	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"0"			Linear 1.0 0.1
+	
+	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 1.2 0.1
+
+	RunEvent HasMOTDBlinkLoop		2.0
+}
+
+event HasMOTDBlinkLoop
+{
+	RunEvent HasMOTDBlink			0.0
+}
+
+event HasMOTDBlinkStop
+{
+	StopEvent HasMOTDBlink				0.0
+	StopEvent HasMOTDBlinkLoop 		0.0
+	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
+}
+
+//===========================================
+
+event HasNotificationsBlink
+{
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.2 0.1
+		
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.4 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.6 0.1
+	
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.8 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"0"			Linear 1.0 0.1
+	
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 1.2 0.1
+
+	RunEvent HasNotificationsBlinkLoop		2.0
+}
+
+event HasNotificationsBlinkLoop
+{
+	RunEvent HasNotificationsBlink			0.0
+}
+
+event HasNotificationsBlinkStop
+{
+	StopEvent HasNotificationsBlink				0.0
+	StopEvent HasNotificationsBlinkLoop 		0.0
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
+}
+
+//===========================================
+
+event AddToCartBlink
+{
+	Animate	CartButton	BgColor	"TanDark"		Linear 0.0 0.01
+	Animate	CartButton	BgColor	"255 150 0 255"	Linear 0.1 0.01
+		
+	Animate	CartButton 	BgColor	"TanDark"		Linear 0.2 0.01
+	Animate	CartButton 	BgColor	"255 150 0 255"	Linear 0.3 0.01
+	
+	Animate	CartButton 	BgColor	"TanDark"		Linear 0.4 0.01
+	Animate	CartButton 	BgColor	"255 150 0 255"	Linear 0.5 0.01
+	
+	Animate	CartButton	BgColor	"TanDark"		Linear 0.6 0.01
+	Animate	CartButton	BgColor	"255 150 0 255"	Linear 0.7 0.01
+		
+	Animate	CartButton 	BgColor	"TanDark"		Linear 0.8 0.01
+	Animate	CartButton 	BgColor	"255 150 0 255"	Linear 0.9 0.01
+	
+	Animate	CartButton 	BgColor	"TanDark"		Linear 1.0 0.01
+}
+
+//===========================================
+
+event NotificationsPresentBlink
+{
+	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.0 0.1
+	Animate	NotificationsPresentPanel 	Alpha		"0"			Linear 0.2 0.1
+		
+	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.4 0.1
+	Animate	NotificationsPresentPanel 	Alpha		"0"			Linear 0.6 0.1
+	
+	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.8 0.1
+	Animate	NotificationsPresentPanel 	Alpha		"0"			Linear 1.0 0.1
+	
+	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 1.2 0.1
+
+	RunEvent NotificationsPresentBlinkLoop		2.0
+}
+
+event NotificationsPresentBlinkLoop
+{
+	RunEvent NotificationsPresentBlink			0.0
+}
+
+event NotificationsPresentBlinkStop
+{
+	StopEvent NotificationsPresentBlink				0.0
+	StopEvent NotificationsPresentBlinkLoop 		0.0
+	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.0 0.1
 }

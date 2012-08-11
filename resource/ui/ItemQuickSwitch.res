@@ -4,10 +4,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ItemQuickSwitchPanel"
-		"xpos"			"r227"
-		"ypos"			"c-74"
-		"wide"			"230"
-		"tall"			"125"
+		"xpos"			"c-125"
+		"ypos"			"280"
+		"wide"			"275"
+		"tall"			"160"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -16,15 +16,15 @@
 		"settitlebarvisible"	"0"
 		
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"0 0 0 132"
+		"bgcolor_override"	"46 43 42 255"
 		
 		"itempanel_xpos"	"0"
 		"itempanel_ydelta"	"0"
 		
 		"itemskv"	
 		{
-			"wide"			"200"
-			"tall"			"30"
+			"wide"			"220"
+			"tall"			"40"
 			"bgcolor_override"		"59 54 48 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
@@ -33,14 +33,14 @@
 			"model_xpos"	"25"
 			"model_ypos"	"3"
 			"model_wide"	"58"		
-			"model_tall"	"24"
+			"model_tall"	"34"
 			
-			"text_xpos"		"32"
-			"text_wide"		"205"
 			"text_center"	"1"
+			"text_xpos"		"60"
+			"text_wide"		"190"
 			"name_only"		"1"
 			
-			"noitem_textcolor"		"178 178 178 255"
+			"noitem_textcolor"		"117 107 94 255"
 		}
 	}
 	
@@ -54,7 +54,7 @@
 		"xpos"			"5"
 		"ypos"			"5"
 		"zpos"			"1"
-		"wide"			"0"	//20
+		"wide"			"20"
 		"tall"			"15"
 		"autoResize"	"1"
 		"pinCorner"		"0"
@@ -72,7 +72,7 @@
 		"xpos"			"20"
 		"ypos"			"5"
 		"zpos"			"1"
-		"wide"			"0"	//60
+		"wide"			"60"
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -84,19 +84,18 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemSlotLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontSmallestBold"
 		"labelText"		"#PrimaryWeapon"
-		"textAlignment"	"center"		//west
-		"xpos"			"0"		//45
-		"ypos"			"7"
+		"textAlignment"	"west"
+		"xpos"			"80"
+		"ypos"			"5"
 		"zpos"			"1"
-		"wide"			"230"		//200
+		"wide"			"140"
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"m0rewhite"
 	}
 	
 	"TopLine"
@@ -106,7 +105,7 @@
 		"xpos"			"5"
 		"ypos"			"20"
 		"zpos"			"2"
-		"wide"			"0"	//240
+		"wide"			"265"
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
@@ -119,12 +118,12 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"itemcontainerscroller"
-		"xpos"			"3"
+		"xpos"			"5"
 		"ypos"			"30"
-		"wide"			"220"
-		"tall"			"90"
+		"wide"			"265"
+		"tall"			"125"
 		"PaintBackgroundType"	"2"
-		"fgcolor_override"	"160 160 160 200"
+		"fgcolor_override"	"59 54 48 255"
 		"bgcolor_override"	"200 187 161 0"
 		"autohide_buttons" "1"
 	}
@@ -133,10 +132,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"itemcontainer"
-		"xpos"			"0"
+		"xpos"			"30"
 		"ypos"			"0"
-		"wide"			"220"
-		"tall"			"120"
+		"wide"			"240"
+		"tall"			"125"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"200 187 161 0"
 		
@@ -144,17 +143,16 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CurrentlyEquippedBackground"
-			"font"			"m0refont18"
-			"labelText"		"    *"
+			"font"			"ItemFontNameSmallest"
+			"labelText"		"#QuickSwitchEquipped"
 			"textAlignment"	"north-west"
 			"xpos"			"3"
 			"ypos"			"2"
 			"zpos"			"100"
 			"wide"			"200"
-			"tall"			"30"
+			"tall"			"40"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			//"fgcolor" 			"200 80 60 255"
 			"fgcolor_override" "200 80 60 255"
 			"bgcolor_override"	"0 0 0 0"
 		}
@@ -170,12 +168,29 @@
 		"xpos"			"3"
 		"ypos"			"0"
 		"zpos"			"10"
-		"wide"			"0"	//220
+		"wide"			"220"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
+	}
+	
+	"loadout_preset_panel"
+	{
+		"ControlName"	"CLoadoutPresetPanel"
+		"FieldName"		"loadout_preset_panel"
+		"xpos"			"5"
+		"ypos"			"28"
+		"zpos"			"20"
+		"wide"			"25"
+		"tall"			"90"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"paintbackground"	"0"
 	}
 }

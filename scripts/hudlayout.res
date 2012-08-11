@@ -798,6 +798,22 @@
 		"tall"					"50"
 	}
 
+	AnnotationsPanelCallout
+	{
+		"fieldName"			"AnnotationsPanelCallout"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"200"
+		"ypos"					"200"
+		"wide"					"100"
+		"tall"					"50"
+	}
+	
+	AnnotationsPanel
+	{
+		
+	}
+
 	WaitingForPlayersPanel
 	{
 		"fieldName"				"WaitingForPlayersPanel"
@@ -1063,9 +1079,9 @@
 		"enabled"		"1"	
 	}
 	
-	HudTrainingMsg
+	HudTrainingInfoMsg
 	{
-		"fieldName"				"HudTrainingMsg"
+		"fieldName"				"HudTrainingInfoMsg"
 		"visible"				"0"
 		"enabled"				"1"
 		"xpos"					"c-200"
@@ -1074,6 +1090,16 @@
 		"tall"					"265"
 	}
 	
+	HudTrainingMsg
+	{
+		
+	}
+	
+	TrainingComplete
+	{
+		
+	}
+
 	HudInspectPanel
 	{
 		"fieldName"				"HudInspectPanel"
@@ -1099,13 +1125,13 @@
 		"fieldName"				"ItemQuickSwitchPanel"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"			"0"
+		"xpos"			"c-125"
 		"ypos"			"280"
 		"wide"			"250"
 		"tall"			"160"
 	}
 	
-	ScreenshotPanel
+	ReplayReminder
 	{
 		"fieldName"		"ReplayReminder"
 		"visible"		"0"
@@ -1124,15 +1150,28 @@
 		"tall"			"100"
 	}	
 
-	TrainingComplete
+	CoachedByPanel
 	{
-		
+		"fieldName"		"CoachedByPanel"
+		"visible"		"0"
+		"enable"		"1"
+		"xpos"			"5"
+		"ypos"			"10"
+		"wide"			"250"
+		"tall"			"44"
 	}
 
-	AnnotationsPanel
+	ItemTestHUDPanel
 	{
-		
+		"fieldName"		"ItemTestHUDPanel"
+		"visible"		"0"
+		"enable"		"1"
+		"xpos"			"5"
+		"ypos"			"10"
+		"wide"			"150"
+		"tall"			"44"
 	}
+
 	NotificationQueuePanel
 	{
 		"fieldName"		"NotificationQueuePanel"
@@ -1145,17 +1184,6 @@
 		"tall"			"0"
 	}
 	
-	CoachedByPanel
-	{
-		"fieldName"		"CoachedByPanel"
-		"visible"		"0"
-		"enable"		"1"
-		"xpos"			"5"
-		"ypos"			"10"
-		"wide"			"250"
-		"tall"			"44"
-	}
-
 	"CHudVote"
 	{
 		"fieldName"		"CHudVote"

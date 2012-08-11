@@ -1,8 +1,5 @@
 "Resource/UI/HudMedicCharge.res"
 {	
-
-//G-Mang HUD
-
 	"ChargeLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -45,7 +42,6 @@
 		"font"			"HudFontBigger"
 		"fgcolor"		"UberchargeShadow"
 	}
-
 
 	"ChargeMeter"
 	{	

@@ -58,7 +58,7 @@
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"Label"
-		"fieldName"	"PlayerStatusHealthValue"
+		"fieldName"	"KillerStatusHealthValue"
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"5"

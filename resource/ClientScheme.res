@@ -26,7 +26,11 @@ Scheme
 		"m0rered" "235 58 58 255"
 		"m0rewhite" "255 255 255 255"
 		"m0retan" "235 226 202 255"
-		"m0regreen" "0 160 255 255"
+		"m0recyan" "0 160 255 255"
+
+		"SpecHealthGreen" "0 255 0 192"
+		"SpecHealthCyan" "0 160 255 192"
+		"SpecHealthRed" "255 0 0 192"
 
 
 		"Orange"			"178 82 22 255"
@@ -86,6 +90,9 @@ Scheme
 		"TanLight"				"235 226 202 255"
 		"TanDarker"				"46 43 42 255"
 		
+		"StoreDarkTan"			"131 121 104 255"
+		"StoreGreen"			"76 107 34 255"
+		
 		// Building HUD Specific
 		"LowHealthRed"		"255 0 0 255"
 		"ProgressOffWhite"	"251 235 202 255"
@@ -124,9 +131,9 @@ Scheme
 		"ItemFlags"								"117 107 94 255"
 		
 		"QualityColorNormal"					"178 178 178 255"
-		"QualityColorrarity1"					"141 131 75 255"
-		"QualityColorrarity2"					"77 116 85 255"
-		"QualityColorrarity3"					"207 106 50 255"
+		"QualityColorrarity1"					"77 116 85 255"
+		"QualityColorrarity2"					"141 131 75 255"
+		"QualityColorrarity3"					"112 85 15 255"
 		"QualityColorrarity4"					"134 80 172 255"
 		"QualityColorVintage"					"71 98 145 255"
 		"QualityColorUnique"					"255 215 0 255"
@@ -134,6 +141,15 @@ Scheme
 		"QualityColorDeveloper"					"165 15 121 255"
 		"QualityColorSelfMade"					"112 176 74 255"
 		"QualityColorCustomized"				"71 98 145 255"
+		"QualityColorStrange"					"207 106 50 255"
+		"QualityColorCompleted"					"134 80 172 255"
+		
+		"SaleGreen"								"76 107 34 255"
+		
+		"LightRed"								"200 80 60 255"
+		"LighterRed"							"220 100 80 255"
+		"LighterDarkBrown"						"59 54 48 255"
+		"DarkBrown"								"41 37 38 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -142,6 +158,34 @@ Scheme
 	BaseSettings
 	{
 		// vgui_controls color specifications
+		ReplayBrowser.BgColor								"DarkBrown"
+		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"LightRed"
+		ReplayBrowser.Button.ArmedBgColor					"TFOrange"
+		ReplayBrowser.Button.DepressedBgColor				"TFOrange"
+		ReplayBrowser.CollectionTitle.FgColor				"LightRed"
+		ReplayBrowser.Warning.FgColor						"White"
+		ReplayBrowser.ScrollBar.SliderButton.FgColor		"TransparentYellow"
+		ReplayBrowser.Search.BgColor						"TanDark"
+		ReplayBrowser.Search.FgColor						"White"
+		
+		Replay.RenderDialog.BgColor							"LighterDarkBrown"
+		
+		Econ.Dialog.BgColor									"Blank"
+		Econ.Button.BgColor									"TanDark"
+		Econ.Button.FgColor									"TanLight"
+		Econ.Button.ArmedBgColor							"TFOrange"
+		Econ.Button.ArmedFgColor							"TanLight"
+		Econ.Button.DepressedBgColor						"TFOrange"
+		Econ.Button.DepressedFgColor						"Black"
+		
+		Econ.Button.PresetDefaultColorFg					"TanLight"
+		Econ.Button.PresetArmedColorFg						"TanLight"
+		Econ.Button.PresetDepressedColorFg					"TanLight"
+		
+		Econ.Button.PresetDefaultColorBg					"LighterRed"
+		Econ.Button.PresetArmedColorBg						"LightRed"
+		Econ.Button.PresetDepressedColorBg					"TFOrange"
+		
 		Border.Bright					"Blank"		// the lit side of a control
 		Border.Dark						"Black"		// the dark/unlit side of a control
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
@@ -150,6 +194,8 @@ Scheme
 		Button.BgColor					"TanDark"
 		Button.ArmedTextColor			"TanLight"
 		Button.ArmedBgColor				"TFOrange"
+		Button.SelectedTextColor		"TanLight"
+		Button.SelectedBgColor			"TFOrange"
 		Button.DepressedTextColor		"Black"
 		Button.DepressedBgColor			"TFOrange"
 
@@ -313,7 +359,7 @@ Scheme
 		"TeamBlue"			"153 204 255 255"
 
 		"MapDescriptionText"	"Gray" // the text used in the map description window
-		"HudIcon_Green"		"0 160 255 255"
+		"HudIcon_Green"		"0 160 0 255"
 		"HudIcon_Red"		"160 0 0 255"
 
 		// CHudMenu
@@ -1142,6 +1188,17 @@ Scheme
 				"antialias" 	"1"
 			}
 		}	
+		"HudFontSmallishBold"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"16"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"HudFontSmallBold"
 		{
 			"1"
@@ -1194,6 +1251,17 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"11"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"PerformanceModeSmall"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1263,6 +1331,17 @@ Scheme
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
 				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"TextTooltipFont"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"11"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1797,6 +1876,29 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		"ControlPointTimer"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"10"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ControlPointTimerSmaller"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"7"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 
 		"Link"
 		{
@@ -2306,6 +2408,206 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		
+		
+		//
+		//////////////////// REPLAY FONTS //////////////////////////////
+		//
+		"ReplayVerySmall"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+				"tall"		"16"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+		}
+		"ReplayBrowserSmallest"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"11"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"ReplaySmaller"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"13"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+				"tall"		"20"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+				"tall"		"22"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Arial"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"0"
+			}
+		}
+		"ReplayMediumSmall"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"11"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ReplayMedium"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ReplayMediumBig"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"18"
+				"tall_hidef"	"24"
+				"tall_lodef"	"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ReplayBrowserTab"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"24"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ReplayLarger"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"18"
+				"tall_hidef"	"24"
+				"tall_lodef"	"20"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		//
+		//////////////////// ECON FONTS //////////////////////////////
+		//
+		"EconFontSmall"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"EconFontMedium"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"24"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 	}
 
 	//
@@ -2523,7 +2825,46 @@ Scheme
 				}
 			}
 		}
-		
+		SalePriceBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "SaleGreen"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "SaleGreen"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "SaleGreen"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "SaleGreen"
+					"offset" "0 0"
+				}
+			}
+		}
+				
 		MainMenuSubButtonBorder
 		{
 			"inset" "0 0 1 1"
@@ -2622,6 +2963,17 @@ Scheme
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}
+		TFFatLineBorderRedBGOpaque_Store
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_red_opaque"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
+		}
 		TFFatLineBorderRedBG
 		{
 			"bordertype"			"scalable_image"
@@ -2645,6 +2997,61 @@ Scheme
 			"draw_corner_height" 	"5"	
 		}
 
+		ToolTipBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "TanDarker"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "TanDarker"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "TanDarker"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "TanDarker"
+					"offset" "0 0"
+				}
+			}
+		}
+		OptionsCategoryBorder
+		{
+			"inset" "0 0 1 1"
+			
+			// This border is used just to create a horizontal line, so it only has a bottom border
+			
+			Bottom
+			{
+				"1"
+				{
+					"color" "TanLight"
+					"offset" "0 0"
+				}
+			}
+		}
+		
 		GrayDialogBorder
 		{
 			"bordertype"			"scalable_image"
@@ -2657,7 +3064,19 @@ Scheme
 			"draw_corner_height" 	"11"	
 		}
 		
-		LoadoutItemBorder
+		StoreFreeTrialBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"loadout_rect_red"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
+		}
+		
+		EconItemBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
@@ -2668,6 +3087,17 @@ Scheme
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"11"	
 		}
+		Econ.Button.Border.Default
+		{
+			"inset" "0 0 0 0"
+			"backgroundtype" "2"
+		}
+		Econ.Button.Border.Armed
+		{
+			"inset" "0 0 0 0"
+			"backgroundtype" "2"
+		}
+
 		LoadoutItemMouseOverBorder
 		{
 			"bordertype"			"scalable_image"
@@ -2978,6 +3408,54 @@ Scheme
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"11"	
 		}
+		BackpackItemBorder_Strange
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"QualityColorStrange"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
+		}
+		BackpackItemMouseOverBorder_Strange
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"QualityColorStrange"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
+		}
+		BackpackItemBorder_Completed
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"QualityColorCompleted"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
+		}
+		BackpackItemMouseOverBorder_Completed
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"QualityColorCompleted"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
+		}
 		StoreItemBorder
 		{
 			"inset" "0 0 1 1"
@@ -3099,6 +3577,17 @@ Scheme
 			}
 		}
 		
+		NotificationDefault
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"alert_rect"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
 		MainMenuButtonDefault
 		{
 			"bordertype"			"scalable_image"
@@ -3116,6 +3605,17 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"button_central_hover"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
+		MainMenuButtonDisabled
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"button_central_disabled"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -3195,6 +3695,30 @@ Scheme
 			
 			"image"					"button_holder_central"
 			"src_corner_height"		"32"			// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
+		
+		StoreInnerShadowBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"store/innershadow_border"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+		
+		StoreNewBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"new_corner"
+			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"	
@@ -3289,6 +3813,189 @@ Scheme
 			"src_corner_width"		"16"
 			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"8"	
+		}
+		QuickplayBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		SteamWorkshopBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		ReplayFatLineBorderRedBGOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/fatlineborder_red"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+		ReplayFatLineBorderOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/fatlineborder"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+		ReplayGrayDialogBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/graydialogborder"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
+		}
+		ReplayOutlinedGreyBox
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/outlinedgreybox"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
+		}
+		ReplayOutlinedDullGreyBox
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/dullgreybox"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
+		}
+		ReplayThinLineBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/tournament_panel_brown"
+			//"image"					"../hud/color_panel_browner"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+		ReplayDefaultBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/panel_scalable_default"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
+		}
+		ReplayHighlightBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/panel_scalable_highlight"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
+		}
+		ReplayBalloonBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/panel_scalable_balloon"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
+		}
+		ReplayBrowser.ScrollBar.SliderButton.Border
+		{
 		}
 	}
 

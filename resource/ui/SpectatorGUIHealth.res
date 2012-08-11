@@ -3,7 +3,7 @@
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImage"
+		"fieldName"		"SpectatorStatusHealthImage"
 		"xpos"			"6"
 		"ypos"			"6"
 		"zpos"			"4"
@@ -16,7 +16,7 @@
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG"
+		"fieldName"		"SpectatorStatusHealthImageBG"
 		"xpos"			"5999"
 		"ypos"			"5"
 		"zpos"			"3"
@@ -44,7 +44,7 @@
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthBonusImage"
+		"fieldName"		"SpectatorStatusHealthBonusImage"
 		"xpos"			"5999"
 		"ypos"			"5"
 		"zpos"			"3"
@@ -58,7 +58,7 @@
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"Label"
-		"fieldName"		"PlayerStatusHealthValue"
+		"fieldName"		"SpectatorStatusHealthValue"
 		"xpos"			"-1"
 		"ypos"			"6"
 		"zpos"			"7"
@@ -69,6 +69,6 @@
 		"labeltext"		"%Health%"
 		"textAlignment"		"center"
 			"font"			"m0refont14"
-		"fgcolor_override" "0 255 0 192"
+		"fgcolor_override" "SpecHealthGreen"
 	}
 }

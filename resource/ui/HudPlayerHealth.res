@@ -119,10 +119,10 @@
 		"font"			"m0refont72"
 		"fgcolor"		"m0rewhite"
 	}
-	"PlayerStatusHealthValue_minmode"
+	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue_minmode"
+		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"-10"
 		"ypos"			"10"
 		"zpos"			"5"
@@ -154,7 +154,7 @@
 	"PlayerStatusHealthValue3"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue2"
+		"fieldName"		"PlayerStatusHealthValue3"
 		"xpos"			"-8"
 		"ypos"			"12"
 		"zpos"			"5"

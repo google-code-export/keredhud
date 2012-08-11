@@ -95,7 +95,6 @@
 		"ypos"			"r120"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"100"
-		"wide_minmode"	"100"
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -155,10 +154,8 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-233"
-		"xpos_minmode"			"c-251"
+		"xpos"					"c-251"
 		"ypos"					"r152"
-		"ypos_minmode"			"r152"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -981,7 +978,6 @@
 		"enabled"				"1"
 		"xpos"					"c-131"
 		"ypos"					"-20"
-		"ypos_minmode"				"-20"
 		"ypos_lodef"				"75"
 		"wide"					"112"
 		"tall"					"55"
@@ -1144,6 +1140,7 @@
 		"enable"		"1"
 		"xpos"			"r155"
 		"ypos"			"r90"
+		"zpos"			"100"
 		"wide"			"200"
 		"tall"			"0"
 	}

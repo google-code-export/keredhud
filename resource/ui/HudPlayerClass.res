@@ -11,7 +11,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
-		"enabled"		"1"		
+		"enabled"		"1"
 	}
 	"PlayerStatusClassImage"
 	{
@@ -22,11 +22,10 @@
 		"zpos"			"2"
 		"wide"			"40"
 		"tall"			"40"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/class_scoutred"
 		"scaleImage"	"1"
-		"alpha"		"0"
 	}
 	"PlayerStatusSpyImage"
 	{
@@ -48,10 +47,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyOutlineImage"
-		"xpos"			"3"		[$WIN32]
-		"ypos"			"r67"	[$WIN32]
-		"xpos"			"35"	[$X360]
-		"ypos"			"r89"	[$X360]
+		"xpos"			"3"
+		"ypos"			"r67"
 		"zpos"			"7"
 		"wide"			"55"
 		"tall"			"55"
@@ -64,10 +61,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
-		"xpos"			"-10"		[$WIN32]
-		"ypos"			"r40"	[$WIN32]
-		"xpos"			"41"	[$X360]
-		"ypos"			"r82"	[$X360]
+		"xpos"			"-10"
+		"ypos"			"r40"
 		"zpos"			"1"		
 		"wide"			"100"
 		"tall"			"50"

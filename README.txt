@@ -4,6 +4,8 @@ To install, unzip the files to your "Steam\steamapps\[username]\team fortress 2\
 
 Change Log:
 
+Version 1.33: Fixed clipping between healer's ubercharge and last damage number.
+
 Version 1.32: Fixed overtime label and payload race progress bar.
 
 Version 1.31: Fixed timer using the wrong font, CTF score limit not showing, and minor clipping issues.

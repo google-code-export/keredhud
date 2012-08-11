@@ -447,8 +447,8 @@ event HudTournamentSetupPanelClose
  
 event HudMedicCharged
 {
-        Animate ChargeMeter      FgColor            "61 202 53 255"                     Linear 0.0 0.1
-        Animate ChargeMeter      FgColor            "19 165 12 255"              Linear 0.3 0.4
+        Animate ChargeMeter      FgColor            "61 202 53 255"          Linear 0.0 0.1
+        Animate ChargeMeter      FgColor            "19 165 12 255"          Linear 0.3 0.4
  
         RunEvent HudMedicChargedLoop    0.6
 }

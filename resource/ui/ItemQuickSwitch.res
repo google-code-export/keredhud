@@ -16,8 +16,7 @@
 		"settitlebarvisible"	"0"
 		
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"46 43 42 255"
-		
+		"bgcolor_override"	"46 43 42 180"		
 		"itempanel_xpos"	"0"
 		"itempanel_ydelta"	"0"
 		
@@ -118,9 +117,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"itemcontainerscroller"
-		"xpos"			"5"
+		"xpos"			"35"
 		"ypos"			"30"
-		"wide"			"265"
+		"wide"			"240"
 		"tall"			"125"
 		"PaintBackgroundType"	"2"
 		"fgcolor_override"	"59 54 48 255"
@@ -132,7 +131,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"itemcontainer"
-		"xpos"			"30"
+		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"240"
 		"tall"			"125"

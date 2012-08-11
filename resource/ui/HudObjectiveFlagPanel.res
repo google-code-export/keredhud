@@ -36,6 +36,11 @@
 		{
 			"visible"	"0"
 		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
 	}
 		
 	"RightSideBG"
@@ -52,6 +57,11 @@
 		"image"			"../hud/objectives_flagpanel_bg_right"
 		"scaleImage"	"1"	
 		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -72,6 +82,11 @@
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -97,6 +112,11 @@
 		{
 			"visible"	"0"
 		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
 	}	
 		
 	"BlueScoreShadow"
@@ -116,6 +136,11 @@
 		"fgcolor"		"60 81 100 255"
 		
 		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -141,6 +166,11 @@
 		{
 			"visible"	"0"
 		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
 	}	
 		
 	"RedScoreShadow"
@@ -163,8 +193,13 @@
 		{
 			"visible"	"0"
 		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
 	}	
-															
+	
 	"OutlineImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -185,7 +220,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
 		"xpos"			"c-2000"
-		"ypos"			"r67"
+		"ypos"			"r70"
 		"zpos"			"10"
 		"wide"			"40"
 		"tall"			"40"
@@ -197,6 +232,12 @@
 		"if_hybrid"
 		{
 			"ypos"		"r142"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"r142"
+			"xpos"		"c-20"
 		}
 	}		
 	
@@ -222,6 +263,11 @@
 		{
 			"visible"	"0"
 		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
 	}	
 			
 	"PlayingToBG"
@@ -240,6 +286,11 @@
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -271,6 +322,11 @@
 		"if_hybrid_double"
 		{
 			"xpos"		"c-115"
+		}
+
+		"if_specialdelivery"
+		{
+			"ypos"		"r100"
 		}
 		
 		"if_no_flags"
@@ -306,6 +362,11 @@
 		{
 			"xpos"		"c-45"
 		}
+
+		"if_specialdelivery"
+		{
+			"ypos"		"r100"
+		}
 		
 		"if_no_flags"
 		{
@@ -318,7 +379,7 @@
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"CaptureFlag"
 		"xpos"			"c-25"
-		"ypos"			"r72"
+		"ypos"			"r75"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"50"
@@ -326,6 +387,11 @@
 		"enabled"		"1"
 		
 		"if_hybrid"
+		{
+			"ypos"		"r100"
+		}
+		
+		"if_specialdelivery"
 		{
 			"ypos"		"r100"
 		}

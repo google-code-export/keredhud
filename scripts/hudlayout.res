@@ -100,6 +100,20 @@
 		"MeterBG"		"Gray"
 	}	
 
+	HudFlameRocketCharge
+	{
+		"fieldName"		"HudFlameRocketCharge"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"r52"
+		"ypos"			"r40"
+		"zpos"			"1"			// draw in front of ammo
+		"wide"			"50"
+		"tall"			"8"
+		"MeterFG"		"White"
+		"MeterBG"		"Gray"
+	}
+
 	HudWeaponSelection
 	{
 		"fieldName" "HudWeaponSelection"

@@ -200,11 +200,12 @@ event KeyHintMessageHide
 }
 
 //===========================================
+
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		Linear 0.2 0.4
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 

@@ -199,7 +199,7 @@
 			"visible"	"0"
 		}
 	}	
-	
+															
 	"OutlineImage"
 	{
 		"ControlName"	"CTFImagePanel"

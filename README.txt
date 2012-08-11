@@ -4,6 +4,8 @@ To install, unzip the files to your "Steam\steamapps\[username]\team fortress 2\
 
 Change Log:
 
+Version 1.51: Fixed clipping with Cow Mangler, Righteous Bison, and Pompson meters.
+
 Version 1.5: Updated files for Pyromania weapons and special delivery mode. Slight improvements to marked and milked status icons and quickswitch menu. Removed unnecessary files (again) that changed the menu background.
 
 Version 1.4: Added previously missing milk and marked for death icons.

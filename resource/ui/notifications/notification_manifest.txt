@@ -24,5 +24,4 @@ notification_manifest
 	"file"		"resource/UI/notifications/notify_your_flag_returned_red.res"
 	"file"		"resource/UI/notifications/notify_your_flag_taken_blue.res"
 	"file"		"resource/UI/notifications/notify_your_flag_taken_red.res"
-	"file"		"resource/UI/notifications/notify_golden_wrench.res"
 }

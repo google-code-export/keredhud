@@ -1,21 +1,21 @@
 "Resource/UI/HudPlayerHealth.res"
-{	
+{
 	// player health data
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-190"
+		"xpos"			"c-240"
 		"ypos"			"r85"
 		"zpos"			"2"
-		"wide"			"150"
+		"wide"			"252"
 		"tall"			"150"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.48"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
-	}	
+	}
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -25,10 +25,10 @@
 		"zpos"			"4"
 		"wide"			"0"
 		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
-	}		
+	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -38,26 +38,26 @@
 		"zpos"			"3"
 		"wide"			"64"
 		"tall"			"64"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
-	}	
-	"m0reStatusHealthImageBGtop"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"m0reStatusHealthImageBGtop"
-		"xpos"			"94"
-		"ypos"			"32"
-		"zpos"			"-1"
-		"wide"			 "0"
-		"tall"	 		"21"
-		"tall"			 "0"
-		"autoResize"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"		"1"
-		"fillcolor"		"0 0 0 155"
+		"image"			"../hud/health_bg"
+		"scaleImage"	"1"	
+	}
+	"m0reStatusHealthImageBGtop"
+	{
+		"ControlName"   "ImagePanel"
+		"fieldName"     "m0reStatusHealthImageBGtop"
+		"xpos"          "94"
+		"ypos"          "32"
+		"zpos"          "-1"
+		"wide"          "0"
+		"tall"          "21"
+		"tall"          "0"
+		"autoResize"    "0"
+		"visible"       "0"
+		"enabled"       "0"
+		"scaleImage"    "1"
+		"fillcolor"     "0 0 0 155"
 	}
 	"m0reStatusHealthImageBGbtm"
 	{
@@ -71,7 +71,7 @@
 		"autoResize"	"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"		"1"
+		"scaleImage"	"1"
 		"fillcolor"		"0 0 0 155"
 	}
 	"m0reStatusHealthImageBG2"
@@ -86,7 +86,7 @@
 		"autoResize"	"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"		"1"
+		"scaleImage"	"1"
 		"fillcolor"		"0 0 0 155"
 	}
 	"PlayerStatusHealthBonusImage"
@@ -99,7 +99,7 @@
 		"wide"			"66"
 		"tall"			"66"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
@@ -107,7 +107,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"0"
+		"xpos"			"50"
 		"ypos"			"10"
 		"zpos"			"5"
 		"wide"			"100"
@@ -123,7 +123,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue2"
-		"xpos"			"1"
+		"xpos"			"51"
 		"ypos"			"11"
 		"zpos"			"5"
 		"wide"			"100"
@@ -131,15 +131,15 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"font"			"m0refont72"
 		"fgcolor"		"0 0 0 255"
-	}								
+	}
 	"PlayerStatusHealthValue3"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue3"
-		"xpos"			"2"
+		"xpos"			"53"
 		"ypos"			"12"
 		"zpos"			"5"
 		"wide"			"100"
@@ -147,10 +147,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"font"			"m0refont72"
 		"fgcolor"		"0 0 0 255"
-	}								
+	}
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -158,12 +158,42 @@
 		"xpos"			"106"
 		"ypos"			"54"
 		"zpos"			"7"
-		"wide"			"0"	//18
+		"wide"			"0" //18
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
-	}									
+	}
+	"PlayerStatusMilkImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusMilkImage"
+		"xpos"			"25"
+		"ypos"			"45"
+		"zpos"			"7"
+		"wide"			"32"
+		"tall"			"32"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../vgui/bleed_drop"
+		"fgcolor"		"TanDark"
+	}
+	"PlayerStatusMarkedForDeathImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusMarkedForDeathImage"
+		"xpos"			"0"
+		"ypos"			"45"
+		"zpos"			"7"
+		"wide"			"32"
+		"tall"			"32"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../vgui/marked_for_death"
+		"fgcolor"		"TanDark"
+	}
 }

@@ -4,6 +4,8 @@ To install, unzip the files to your "Steam\steamapps\[username]\team fortress 2\
 
 Change Log:
 
+Version 1.4: Added previously missing milk and marked for death icons.
+
 Version 1.33: Fixed clipping between healer's ubercharge and last damage number.
 
 Version 1.32: Fixed overtime label and payload race progress bar.

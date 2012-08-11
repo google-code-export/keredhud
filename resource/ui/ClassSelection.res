@@ -685,7 +685,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numScout"
-		"xpos"			"c180"
+		"xpos"			"c160"
 		"ypos"			"c-81"
 		"zpos"			"5"
 		"wide"			"64"
@@ -703,7 +703,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSoldier"
-		"xpos"			"c180"
+		"xpos"			"c160"
 		"ypos"			"c-64"
 		"zpos"			"5"
 		"wide"			"64"
@@ -721,7 +721,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numPyro"
-		"xpos"			"c180"
+		"xpos"			"c160"
 		"ypos"			"c-47"
 		"zpos"			"5"
 		"wide"			"64"
@@ -739,7 +739,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numDemoman"
-		"xpos"			"c180"
+		"xpos"			"c160"
 		"ypos"			"c-30"
 		"zpos"			"5"
 		"wide"			"64"
@@ -757,7 +757,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numHeavy"
-		"xpos"			"c180"
+		"xpos"			"c160"
 		"ypos"			"c-13"
 		"zpos"			"5"
 		"wide"			"64"
@@ -775,7 +775,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numEngineer"
-		"xpos"			"c180"
+		"xpos"			"c160"
 		"ypos"			"c4"
 		"zpos"			"5"
 		"wide"			"64"
@@ -793,7 +793,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
-		"xpos"			"c180"
+		"xpos"			"c160"
 		"ypos"			"c21"
 		"zpos"			"5"
 		"wide"			"64"
@@ -811,7 +811,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSniper"
-		"xpos"			"c180"
+		"xpos"			"c160"
 		"ypos"			"c38"
 		"zpos"			"5"
 		"wide"			"64"
@@ -829,7 +829,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSpy"
-		"xpos"			"c180"
+		"xpos"			"c160"
 		"ypos"			"c55"
 		"zpos"			"5"
 		"wide"			"64"

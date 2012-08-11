@@ -1,8 +1,10 @@
-Keredhud v1.3
+Keredhud v1.31
 
 To install, unzip the files to your "Steam\steamapps\[username]\team fortress 2\tf" folder.
 
 Change Log:
+
+Version 1.31: Fixed timer using the wrong font, CTF score limit not showing, and minor clipping issues.
 
 Version 1.3: Properly updated for Australian Christmas, all items tested except spycicle. Fixed class limits not fitting in class selection box.
 

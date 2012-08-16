@@ -410,7 +410,7 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
-				UberchargeOutline
+		UberchargeOutline
 		{
 			"1"
 			{
@@ -4071,6 +4071,32 @@ Scheme
 			{
 				"range" "0x0000 0xFFFF"
 			}
-		}			
+		}
+		"8" 
+		{
+			"font" "resource/newtown.ttf"
+			"name" "Newtown"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+		}
+		"9" 
+		{
+			"font" "resource/pf_tempesta_seven.ttf"
+			"name" "PF Tempesta Seven"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+		}
 	}
 }

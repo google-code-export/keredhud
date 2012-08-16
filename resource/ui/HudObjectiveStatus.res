@@ -16,8 +16,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"delta_item_x"			"32"
-		"delta_item_start_y"	"32"
-		"delta_item_end_y"		"34"
+		"delta_item_start_y"	"37"
+		"delta_item_end_y"		"39"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"3"
@@ -43,7 +43,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
-
-		}	
+		}
 	}
 }

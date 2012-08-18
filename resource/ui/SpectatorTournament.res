@@ -172,6 +172,37 @@
 		"textAlignment"		"center"
 		"font"			"m0refont13"
 		"fgcolor_override" "255 255 255 200"
+
+		if_mvm
+		{
+			"xpos"			"c-190"
+			"ypos"			"1"
+			"wide"			"380"
+			"textAlignment"		"center"
+		}
+	}
+	"BuyBackLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"BuyBackLabel"
+		"xpos"			"c-190"
+		"ypos"			"16"
+		"wide"			"380"
+		"tall"			"14"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"#TF_PVE_Buyback"
+		"textAlignment"	"center"
+		"font"			"HudFontSmall"
+		"wrap"			"1"
+		"centerwrap"	"1"
+	
+		if_mvm
+		{
+			"visible"		"1"
+		}	
 	}
 	"MapLabel"
 	{

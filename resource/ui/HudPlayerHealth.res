@@ -170,7 +170,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMilkImage"
-		"xpos"			"43"
+		"xpos"			"0"
 		"ypos"			"45"
 		"zpos"			"7"
 		"wide"			"32"
@@ -185,7 +185,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathImage"
-		"xpos"			"18"
+		"xpos"			"25"
 		"ypos"			"45"
 		"zpos"			"7"
 		"wide"			"32"
@@ -200,7 +200,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathSilentImage"
-		"xpos"			"18"
+		"xpos"			"25"
 		"ypos"			"45"
 		"zpos"			"7"
 		"wide"			"32"

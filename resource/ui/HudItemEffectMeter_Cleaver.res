@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter.res"
+"Resource/UI/HudItemEffectMeter_Cleaver.res"
 {
 	HudItemEffectMeter
 	{
@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-37"
-		"ypos"			"r129"
+		"ypos"			"r120"
 		"wide"			"74"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -46,15 +46,15 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_Ball"
+		"labelText"				"#TF_Cleaver"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"TFFontSmall"
 	}
-
+	
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
@@ -62,7 +62,7 @@
 		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"74"
-		"tall"					"6"				
+		"tall"					"6"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -70,5 +70,5 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}					
+	}
 }

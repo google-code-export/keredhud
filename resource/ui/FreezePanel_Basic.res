@@ -167,6 +167,23 @@
 				"labelText"		"%nemesisname%"
 				"textAlignment"		"west"
 			}
+			"NemesisLabel2"
+			{	
+				"ControlName"		"Label"
+				"fieldName"		"NemesisLabel2"
+				"font"			"DefaultSmall"
+				"xpos"			"134"
+				"ypos"			"10"
+				"zpos"			"6"
+				"wide"			"0"
+				"tall"			"0"
+				"autoResize"		"0"
+				"pinCorner"		"0"
+				"visible"		"0"
+				"enabled"		"1"
+				"labelText"		"%nemesisadvice%"
+				"textAlignment"		"west"
+			}
 		}
 	}
 

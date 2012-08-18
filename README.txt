@@ -4,6 +4,8 @@ To install, unzip the files to your "Steam\steamapps\[username]\team fortress 2\
 
 Change Log:
 
+Version 1.6: Initial update for Mann vs. Machine. Added support for Flying Guillotine. Reverted milk and marked for death icons so they no longer clip. Brought ClientScheme.res up to date with official version. Known issues: Minmode in MvM.
+
 Version 1.52: Fixed an issue with fonts not displaying properly and updated map loading screen to be consistent with the official version (many thanks to randomirishlad1 for reporting these bugs). Also improved add time text and removed unnecessary files.
 
 Version 1.51: Fixed clipping with Cow Mangler, Righteous Bison, and Pompson meters.

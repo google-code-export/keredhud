@@ -9,7 +9,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"enabled"		"1"
-
+		
 		
 		"team1_player_base_offset_x"		"-150"
 		"team1_player_base_y"				"430"
@@ -172,7 +172,7 @@
 		"textAlignment"		"center"
 		"font"			"m0refont13"
 		"fgcolor_override" "255 255 255 200"
-
+		
 		if_mvm
 		{
 			"xpos"			"c-190"
@@ -198,11 +198,12 @@
 		"font"			"HudFontSmall"
 		"wrap"			"1"
 		"centerwrap"	"1"
-	
+		
 		if_mvm
 		{
 			"visible"		"1"
-		}	
+		}
+	}
 	}
 	"MapLabel"
 	{

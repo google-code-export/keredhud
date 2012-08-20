@@ -1,5 +1,5 @@
 "Resource/UI/FlagStatus.res"
-{	
+{
 	"Arrow"
 	{
 		"ControlName"	"CTFArrowPanel"
@@ -11,7 +11,7 @@
 		"tall"		"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 	"Briefcase"
 	{
@@ -34,13 +34,13 @@
 			"wide"			"38"
 			"tall"			"38"
 		}	
-	}				
+	}
 	"StatusIcon"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"	"StatusIcon"
-		"xpos"		"66"
-		"ypos"		"31"
+		"xpos"		"65"
+		"ypos"		"30"
 		"zpos"		"3"
 		"wide"		"30"
 		"tall"		"30"
@@ -53,5 +53,5 @@
 		{
 			"visible"	"0"
 		}
-	}	
+	}
 }

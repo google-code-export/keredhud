@@ -86,7 +86,9 @@
 		"font"			"HudFontSmall"
 		"wrap"			"1"
 		"centerwrap"	"1"
-	}	"MapLabel"
+	}
+	
+	"MapLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"

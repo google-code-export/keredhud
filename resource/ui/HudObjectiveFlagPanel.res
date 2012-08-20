@@ -47,7 +47,7 @@
 			"visible"	"0"
 		}
 	}
-		
+	
 	"RightSideBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -76,7 +76,7 @@
 			"visible"	"0"
 		}
 	}
-		
+	
 	"OutlineBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -137,8 +137,8 @@
 		{
 			"visible"	"0"
 		}
-	}	
-		
+	}
+	
 	"BlueScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -169,8 +169,8 @@
 		{
 			"visible"	"0"
 		}
-	}	
-							
+	}
+	
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
@@ -201,8 +201,8 @@
 		{
 			"visible"	"0"
 		}
-	}	
-		
+	}
+	
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -233,8 +233,8 @@
 		{
 			"visible"	"0"
 		}
-	}	
-															
+	}
+	
 	"OutlineImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -248,17 +248,17 @@
 		"enabled"		"0"
 		"image"			"../hud/objectives_flagpanel_carried_outline"
 		"scaleImage"	"1"	
-	}		
+	}
 	
 	"CarriedImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
 		"xpos"			"c-2000"
-		"ypos"			"r70"
+		"ypos"			"r66"
 		"zpos"			"10"
-		"wide"			"40"
-		"tall"			"40"
+		"wide"			"32"
+		"tall"			"32"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_red"
@@ -271,10 +271,10 @@
 		
 		"if_specialdelivery"
 		{
-			"visible"	"r142"
-			"xpos"		"c-20"
+			"visible"	"1"
+			"xpos"		"c-16"
 		}
-	}		
+	}
 	
 	"PlayingTo"
 	{
@@ -309,7 +309,7 @@
 			"visible"	"0"
 		}
 	}	
-			
+	
 	"PlayingToBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -339,8 +339,8 @@
 		{
 			"visible"	"0"
 		}
-	}	
-		
+	}
+	
 	"BlueFlag"
 	{
 		"ControlName"	"CTFFlagStatus"
@@ -379,7 +379,7 @@
 			"visible"	"0"
 		}
 	}
-			
+	
 	"RedFlag"
 	{
 		"ControlName"	"CTFFlagStatus"
@@ -391,7 +391,7 @@
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-				
+		
 		"if_hybrid"
 		{
 			"visible"	"0"
@@ -407,7 +407,7 @@
 		{
 			"xpos"		"c-45"
 		}
-
+		
 		"if_specialdelivery"
 		{
 			"ypos"		"r100"
@@ -417,8 +417,8 @@
 		{
 			"visible"	"0"
 		}
-	}	
-			
+	}
+	
 	"CaptureFlag"
 	{
 		"ControlName"	"CTFArrowPanel"
@@ -438,7 +438,7 @@
 		
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
+			"ypos"		"r79"
 		}
 	}
 	
@@ -455,5 +455,5 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_red"
 		"scaleImage"	"1"
-	}			
+	}
 }

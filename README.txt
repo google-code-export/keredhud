@@ -1,8 +1,10 @@
-Keredhud v1.5
+Keredhud v1.61
 
 To install, unzip the files to your "Steam\steamapps\[username]\team fortress 2\tf" folder.
 
 Change Log:
+
+Version 1.61: Fixed health numbers being cut off in 16:9. Fixed special delivery flag indicator.
 
 Version 1.6: Initial update for Mann vs. Machine. Added support for Flying Guillotine. Reverted milk and marked for death icons so they no longer clip. Brought ClientScheme.res up to date with official version. Known issues: Minmode in MvM.
 

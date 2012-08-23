@@ -2,8 +2,22 @@
 {
 	"MainBackground"	
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"MainBackground"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"450"
+		"tall"			"180"
+		"visible"		"0"
+		"enabled"		"1"
+		"paintbackground" "0"
+	}
+	
+	"ItemBackground"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"ItemBackground"
 		"xpos"			"1"
 		"xpos_hidef"	"14"
 		"ypos"			"9"
@@ -14,29 +28,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
+		"image"			"pipboy_overlay"
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
 		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"	
 		"scaleImage"		"1"
-	}
-	
-	"ItemBackground"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemBackground"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-2"
-		"wide"			"450"
-		"tall"			"180"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"image"			"pipboy_overlay"
-		"tileImage"		"1"
-		"drawcolor"		"192 192 192 255"
 	}
 	"BackgroundEngineer"
 	{
@@ -88,7 +85,9 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"	}
+		"enabled"		"1"
+		"fgcolor"		"0 255 0 255"
+	}
 	
 	"CancelLabel"
 	{	

@@ -1,19 +1,25 @@
 "Resource/UI/build_menu/HudMenuEngyBuild.res"
 {
-	"MainBackground"	
+	"MainBackground"
 	{
-		"ControlName"	"CIconPanel"
+		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"MainBackground"
-		"xpos"			"0"
-		"ypos"			"10"
+		"xpos"			"1"
+		"xpos_hidef"	"14"
+		"ypos"			"9"
 		"zpos"			"0"
-		"wide"			"450"
-		"tall"			"170"
-		"visible"		"0" //"1"
+		"wide"			"248"
+		"tall"			"84"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"hud_menu_bg"
-		"iconColor"		"255 255 255 255"
+		"image"			"../hud/color_panel_brown"
+		"src_corner_height"	"23"				// pixels inside the image
+		"src_corner_width"	"23"
+		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
+		"scaleImage"		"1"
 	}
 	
 	"BuildIcon"	
@@ -52,20 +58,20 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontGiantBold"
-		"xpos"			"68"			// align me to the left edge of the first selection
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"300"
-		"tall"			"38"
+		"font"			"m0refont15"
+		"labelText"		"#Hud_menu_build_title"
+		"textAlignment"	"center"
+		"xpos"			"0"
+		"ypos"			"11"
+		"zpos"			"3"
+		"wide"			"250"
+		"tall"			"20"
+		"tall_lodef"	"24"
+		"tall_hidef"	"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#Hud_menu_build_title"
-		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	
 	"TitleLabelDropshadow"
@@ -108,26 +114,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-
-	"BuildTitle"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"BuildTitle"
-		"font"			"m0refont15"
-		"labelText"		"#Hud_menu_build_title"
-		"textAlignment"	"center"
-		"xpos"			"0"
-		"ypos"			"11"
-		"zpos"			"3"
-		"wide"			"250"
-		"tall"			"20"
-		"tall_lodef"	"24"
-		"tall_hidef"	"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-	}
+	
 	"BuildTitleBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -145,28 +132,6 @@
 		"PaintBackgroundType"	"0"
 	}
 	
-	"BuildBG"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"BuildBG"
-		"xpos"			"1"
-		"xpos_hidef"	"14"
-		"ypos"			"9"
-		"zpos"			"0"
-		"wide"			"248"
-		"tall"			"84"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-		"src_corner_height"	"23"				// pixels inside the image
-		"src_corner_width"	"23"
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
-		"scaleImage"		"1"
-	}
-
 	"active_item_1"
 	{
 		"ControlName"	"EditablePanel"

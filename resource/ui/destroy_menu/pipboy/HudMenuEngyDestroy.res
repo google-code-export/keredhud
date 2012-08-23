@@ -2,16 +2,24 @@
 {
 	"MainBackground"	
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"MainBackground"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"1"
+		"xpos_hidef"	"14"
+		"ypos"			"9"
 		"zpos"			"0"
-		"wide"			"450"
-		"tall"			"180"
-		"visible"		"0"
+		"wide"			"248"
+		"tall"			"69"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
 		"enabled"		"1"
-		"paintbackground" "0"
+		"image"			"../hud/color_panel_brown"
+		"src_corner_height"	"23"				// pixels inside the image
+		"src_corner_width"	"23"
+		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
+		"scaleImage"		"1"
 	}
 	
 	"ItemBackground"
@@ -67,22 +75,20 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontGiantBold"
-		"xpos"			"31"			// align me to the left edge of the first selection
-		"ypos"			"8"
-		"zpos"			"2"
-		"wide"			"300"
-		"tall"			"38"
+		"font"			"m0refont15"
+		"labelText"		"#Hud_menu_demolish_title"
+		"textAlignment"	"center"
+		"xpos"			"0"
+		"ypos"			"11"
+		"zpos"			"3"
+		"wide"			"250"
+		"tall"			"20"
+		"tall_lodef"	"24"
+		"tall_hidef"	"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"labelText"		"#Hud_menu_demolish_title"
-		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"fgcolor"		"0 255 0 255"
-	}
+		"visible"		"1"
+		"enabled"		"1"	}
 	
 	"CancelLabel"
 	{	
@@ -103,66 +109,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"0 255 0 255"
-	}
-
-	"DestroyTitle"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"BuildTitle"
-		"font"			"m0refont15"
-		"labelText"		"#Hud_menu_demolish_title"
-		"textAlignment"	"center"
-		"xpos"			"0"
-		"ypos"			"11"
-		"zpos"			"3"
-		"wide"			"250"
-		"tall"			"20"
-		"tall_lodef"	"24"
-		"tall_hidef"	"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-	}
-	
-	"DestroyTitleBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BuildTitleBG"
-		"xpos"			"1"
-		"ypos"			"9"
-		"zpos"			"1"
-		"wide"			"0"
-		"tall"			"16" //"68"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"	
-		"fillcolor"		"255 159 45 128"
-		"PaintBackgroundType"	"0"
-	}
-	
-	
-	"DestroyBG"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"DestroyBG"
-		"xpos"			"1"
-		"xpos_hidef"	"14"
-		"ypos"			"9"
-		"zpos"			"0"
-		"wide"			"248"
-		"tall"			"69"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-		"src_corner_height"	"23"				// pixels inside the image
-		"src_corner_width"	"23"
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
-		"scaleImage"		"1"
 	}
 	
 	"active_item_1"

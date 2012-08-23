@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"CEmbeddedItemModelPanel"
 		"fieldName"		"itemmodelpanel"
-	
+		
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"		
@@ -15,12 +15,12 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"useparentbg"		"1"
-
+		
 		"fov"				"54"
 		"start_framed"		"1"
-
+		
 		"disable_manipulation"	"1"
-
+		
 		"model"
 		{
 			"angles_x"		"10"

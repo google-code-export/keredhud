@@ -4,12 +4,12 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"				"HudTournament"
-				
+		
 		"xpos"					"c-125"
 		"ypos"					"0"
 		"wide"					"250"
 		"tall"					"480"
-
+		
 		"team1_player_base_offset_x"		"-75"
 		"team1_player_base_y"				"0"
 		"team1_player_delta_x"				"-47"
@@ -28,7 +28,7 @@
 			
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
-										  			
+			
 			"playername"
 			{
 				"ControlName"	"CExLabel"
@@ -129,20 +129,20 @@
 				"tall"			"16"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"0"
+				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../HUD/tournament_panel_brown"
-
+				
 				"src_corner_height"	"22"				// pixels inside the image
 				"src_corner_width"	"22"
-			
+				
 				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
 				"draw_corner_height" 	"3"
 				
 				if_mvm
 				{
 					"visible"		"1"
-				}	
+				}
 			}
 			
 			"ReadyImage"
@@ -156,11 +156,11 @@
 				"tall"			"12"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"0"
+				"visible"		"1"
 				"enabled"		"1"
 				"image"			"hud/checkmark"
 				"scaleImage"		"1"
-
+				
 				if_mvm
 				{
 					"visible"		"1"
@@ -201,11 +201,6 @@
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"north"
 				"fgcolor"		"0 255 0 255"
-				
-				if_mvm
-				{	
-					"visible"		"0"
-				}
 			}
 			
 			"specindex"
@@ -239,12 +234,12 @@
 			"ypos"					"0"
 			"wide"					"500"
 			"tall"					"480"
-
+			
 			"team1_player_base_y"			"66"
 			"team2_player_delta_x"			"52"
-		}		
+		}
 	}
-
+	
 	"HudTournamentBG"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -260,21 +255,21 @@
 		"enabled"		"0"
 		"image"			"../hud/color_panel_brown"
 		//"fillcolor"		"255 255 255 0"
-
-
+		
+		
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
 		
 		"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"3"	
-
+		
 		
 		if_mvm
 		{
 			"visible"		"0"
 		}	
 	}
-
+	
 	"TournamentLabel"
 	{	
 		"ControlName"		"Label"
@@ -298,7 +293,7 @@
 			"visible"		"0"
 		}
 	}
-
+	
 	"HudTournamentBLUEBG"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -313,7 +308,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/color_panel_blu"
-
+		
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
 		
@@ -371,7 +366,7 @@
 			"visible"		"0"
 		}
 	}
-
+	
 	"HudTournamentREDBG"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -386,7 +381,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/color_panel_red"
-
+		
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
 		
@@ -492,7 +487,7 @@
 			"visible"		"0"
 		}
 	}
-
+	
 	"HudTournamentBGHelp"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -507,8 +502,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_brown"
-
-
+		
+		
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
 		
@@ -595,14 +590,14 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../HUD/color_panel_red"
-
+		
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
 		
 		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"	
 	}
-
+	
 	"CountdownLabel"
 	{	
 		"ControlName"		"CExLabel"

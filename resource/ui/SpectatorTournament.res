@@ -44,8 +44,37 @@
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
 				"fgcolor_override"		"255 255 255 255"
+				
+				if_mvm
+				{
+					"xpos"			"5"
+					"ypos"			"4"
+					"wide"			"20"
+					"tall"			"20"
+					"image"			"../vgui/hud_connecting"
+				}
 			}
-
+			
+			"classimagebg"
+			{
+				"ControlName"		"Panel"
+				"fieldName"		"classimagebg"
+				"xpos"			"5"
+				"ypos"			"4"
+				"zpos"			"2"
+				"wide"			"20"
+				"tall"			"20"
+				"visible"		"0"
+				"enabled"		"1"
+				"bgcolor_override"		"Black"
+				"PaintBackgroundType"	"0"
+				
+				if_mvm
+				{
+					"visible"		"1"
+				}
+			}
+			
 			"classimage"
 			{
 				"ControlName"	"CTFClassImage"
@@ -79,6 +108,55 @@
 				"TextColor"					"HudOffWhite"
 			}	
 			
+			"ReadyBG"
+			{
+				"ControlName"		"ScalableImagePanel"
+				"fieldName"		"ReadyBG"
+				"xpos"			"30"
+				"ypos"			"6"
+				"zpos"			"-1"
+				"wide"			"16"
+				"tall"			"16"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"0"
+				"enabled"		"1"
+				"image"			"../HUD/tournament_panel_brown"
+				
+				"src_corner_height"	"22"				// pixels inside the image
+				"src_corner_width"	"22"
+				
+				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_height" 	"3"
+				
+				if_mvm
+				{
+					"visible"		"1"
+				}	
+			}
+			
+			"ReadyImage"
+			{
+				"ControlName"		"ImagePanel"
+				"fieldName"		"ReadyImage"
+				"xpos"			"32"
+				"ypos"			"8"
+				"zpos"			"0"
+				"wide"			"12"
+				"tall"			"12"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"0"
+				"enabled"		"1"
+				"image"			"hud/checkmark"
+				"scaleImage"		"1"
+				
+				if_mvm
+				{
+					"visible"		"1"
+				}
+			}
+			
 			"respawntime"
 			{
 				"ControlName"	"CExLabel"
@@ -105,7 +183,7 @@
 				"xpos"			"2"
 				"ypos"			"5"
 				"zpos"			"5"
-				"wide"			"20"
+				"wide"			"30"
 				"tall"			"10"
 				"autoResize"	"0"
 				"pinCorner"		"0"

@@ -1,8 +1,10 @@
-Keredhud v1.61
+Keredhud v1.62
 
 To install, unzip the files to your "Steam\steamapps\[username]\team fortress 2\tf" folder.
 
 Change Log:
+
+Version 1.62: Moved Soda Popper meter to be more like other item meters, also affects sapper meter in MvM. Fixed the pipboy build and destroy menus: They now use the colors and background of the official pipboy menus, but with the layout and size of the normal Keredhud menus (thanks to Platypus for the bug report). Added difficulty to MvM scoreboard. Modified HudPlayerHealth.res to be compatible with hud crosshairs (you'll still have to install them yourself) (the appearance of health numbers is unchanged).
 
 Version 1.61: Fixed health numbers being cut off in 16:9. Fixed special delivery flag indicator.
 

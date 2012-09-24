@@ -1063,12 +1063,12 @@
 	NotificationPanel
 	{
 		"fieldName"				"NotificationPanel"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"xpos"					"c-320"
 		"ypos"					"62"
-		"wide"					"640"
-		"tall"					"100"
+		"wide"					"0"
+		"tall"					"0"
 	}
 	
 	AchievementNotificationPanel	

@@ -165,4 +165,21 @@
 		"image"			"../vgui/marked_for_death"
 		"fgcolor"		"TanDark"
 	}
+	"PlayerStatus_WheelOfDoom"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_WheelOfDoom"
+		"xpos"			"115"
+		"xpos_minmode"	"115"
+		"ypos"			"75"
+		"ypos_minmode"	"55"
+		"zpos"			"7"
+		"wide"			"32"
+		"tall"			"32"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../signs/death_wheel_whammy"
+		"fgcolor"		"TanDark"
+	}
 }

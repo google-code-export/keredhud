@@ -115,7 +115,8 @@
 			"wide"			"0"
 			"tall"			"0"
 			"visible"		"1"
-
+			"ForceStereoRenderToFrameBuffer" "1"
+			
 			"NemesisPanelBG"
 			{
 				"ControlName"		"ScalableImagePanel"

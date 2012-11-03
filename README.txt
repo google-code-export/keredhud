@@ -1,8 +1,10 @@
-Keredhud v1.63
+Keredhud v1.70
 
 To install, unzip the files to your "Steam\steamapps\[username]\team fortress 2\tf" folder.
 
 Change Log:
+
+Version 1.70: Updated for Scream Fortress 2012.
 
 Version 1.63: Removed bleed image. Removed CTF notifications.
 

@@ -4,6 +4,8 @@ To install, unzip the files to your "Steam\steamapps\[username]\team fortress 2\
 
 Change Log:
 
+Version 1.71: Fixed clipping between Righteous Bison and Rocket ammo.
+
 Version 1.70: Updated for Scream Fortress 2012.
 
 Version 1.63: Removed bleed image. Removed CTF notifications.

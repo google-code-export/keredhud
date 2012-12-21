@@ -119,7 +119,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-
+	
 	"ChargeMeter4"
 	{	
 		"ControlName"	"ContinuousProgressBar"
@@ -137,5 +137,19 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+	}
+	
+	"ResistIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ResistIcon"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"../HUD/defense_buff_bullet_blue"
+		"scaleImage"	"1"	
 	}
 }

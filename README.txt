@@ -4,6 +4,8 @@ To install, unzip the files to your "Steam\steamapps\[username]\team fortress 2\
 
 Change Log:
 
+Version 1.80: Updated for Mecha Update (Australian Smissmas 2012). Fixed cutoff buttons in quickswitch menu. Fixed marked for death and milked icons clipping with health (due to an update by Valve, I can no longer control the horizontal position of these icons).
+
 Version 1.71: Fixed clipping between Righteous Bison and Rocket ammo.
 
 Version 1.70: Updated for Scream Fortress 2012.

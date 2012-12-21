@@ -2636,6 +2636,19 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		ControllerHintText
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"15"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
 	}
 
 	//
@@ -3156,6 +3169,19 @@ Scheme
 			"color"					"Black"
 			
 			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
+		}
+		
+		BackpackItemGrayedOut_Selected
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"Black"
+			
+			"image"					"backpack_rect_selected"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional

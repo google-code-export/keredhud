@@ -109,10 +109,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
-		"xpos"			"30"
+		"xpos"			"10"
 		"ypos"			"40"
 		"zpos"			"5"
-		"wide"			"40"
+		"wide"			"80"
 		"tall"			"19"
 		"visible"		"1"
 		"enabled"		"1"

@@ -28,7 +28,7 @@
 	
 	"BossStatusPanel"
 	{
-		"ControlName"		"CBossStatusPanel"
+		"ControlName"		"CMvMBossStatusPanel"
 		"fieldName"			"BossStatusPanel"
 		"xpos"				"0"
 		"ypos"				"0"

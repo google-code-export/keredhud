@@ -16,6 +16,42 @@
 		"HealthDeathWarning"	"0.48"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}
+	CrossHairRequest
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"CrossHairRequest"
+		"visible"		"1"
+		"enabled"		"1"
+		"zpos"			"1"
+		
+		"xpos"			"c-128"
+		"ypos"			"c-8"
+		"wide"			"14"
+		"tall"			"16"
+		
+		"font"			"CrossHairRequest1"
+		"labelText"		"+"
+		"fgcolor"		"255 255 255 255"
+		"textAlignment"	"center"
+	}
+	CrossHairRequest2
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"CrossHairRequest2"
+		"visible"		"1"
+		"enabled"		"1"
+		"zpos"			"2"
+		
+		"xpos"			"c-132"
+		"ypos"			"c-8"
+		"wide"			"20"
+		"tall"			"15"
+		
+		"font"			"CrossHairRequest2"
+		"labelText"		"+"
+		"fgcolor"		"255 0 0 0"
+		"textAlignment"	"center"
+	}
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"

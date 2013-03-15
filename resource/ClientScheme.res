@@ -423,6 +423,28 @@ Scheme
 	// describes all the fonts
 	Fonts
 	{
+		"CrossHairRequest1"
+		{
+			"1"
+			{
+				"name"		"Courier"
+				"tall"		"15"
+				"weight"	"0"
+				"additive"	"0"
+				"outline" "1"
+			}
+		}
+		"CrossHairRequest2"
+		{
+			"1"
+			{
+				"name"		"Courier"
+				"tall"		"25"
+				"weight"	"0"
+				"additive"	"0"
+				"outline" "1"
+			}
+		}
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace

@@ -235,9 +235,11 @@ event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		Linear 0.125 0.075
-
+	
 	Animate PlayerStatusHealthvalue FgColor "225 0 0 255" linear 0.0 0.0
 	Animate SpectatorStatusHealthvalue FgColor "SpecHealthRed" Accel 0.0 0.0
+	
+	Animate CrossHairRequest	FgColor		"225 0 0 255"           Linear 0.0 0.0
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -253,8 +255,12 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
 
+	StopPanelAnimations CrossHairRequest 0.0
+
 	Animate PlayerStatusHealthvalue fgcolor "m0rewhite" accel 0.0 0.0
 	Animate SpectatorStatusHealthvalue FgColor "SpecHealthGreen" Accel 0.0 0.0
+
+	Animate CrossHairRequest 	FgColor		"255 255 255 255"		Linear 0.0 0.0
 }
 
 //===========================================
@@ -739,9 +745,17 @@ event NotificationsPresentBlinkStop
 
 event DamagedPlayer
 {
-	// empty
+	Animate CrossHairRequest2   FgColor     "225 0 0 255"     Linear 0.0 0.0
+	
+	RunEvent DamagedPlayerStop	0.25
 }
 
+event DamagedPlayerStop
+{
+	StopPanelAnimations CrossHairRequest 0.0
+
+	Animate CrossHairRequest2   FgColor     "225 0 0 0"     Linear 0.0 0.0
+}
 //===========================================
 
 event SpyWarningFlash

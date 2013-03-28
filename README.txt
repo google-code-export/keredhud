@@ -1,8 +1,10 @@
-Keredhud v1.81
+Keredhud v1.82
 
 To install, unzip the files to your "Steam\steamapps\[username]\team fortress 2\tf" folder.
 
 Change Log:
+
+Version 1.82: Slight adjustments to DemomanCharge and DemomanPipes meters so they no longer touch.
 
 Version 1.81: Fixed MvM Boss health. Fixed "Sudden death" label getting cut off. Removed ammo icon from medigun target in MvM.
 

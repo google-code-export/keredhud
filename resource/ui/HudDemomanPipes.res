@@ -16,7 +16,7 @@
 		"teambg_2"		"../hud/misc_ammo_area_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
 		"teambg_3"		"../hud/misc_ammo_area_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"
 	}
 	
 	"ChargeLabel"
@@ -41,15 +41,15 @@
 	}
 
 	"ChargeMeter"
-	{	
+	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
 		"xpos"					"0"
-		"ypos"					"18"
+		"ypos"					"17"
 		"zpos"					"2"
 		"wide"					"74"
-		"tall"					"6"				
+		"tall"					"6"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -57,8 +57,8 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}				
-		
+	}
+	
 	"PipesPresentPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -129,7 +129,7 @@
 			"brighttext"	"0"
 			"font"			"m0refont14"
 			"fgcolor"		"m0reblack"
-		}		
+		}
 	}
 	
 	"NoPipesPresentPanel"
@@ -157,6 +157,6 @@
 			"scaleImage"	"1"
 			"teambg_2"		"../hud/ico_stickybomb_red_faded"
 			"teambg_3"		"../hud/ico_stickybomb_blue_faded"	
-		}			
-	}				
+		}
+	}
 }

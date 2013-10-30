@@ -20,7 +20,7 @@
 		"xpos"			"25"
 		"ypos"			"r70"
 		"zpos"			"2"
-		"wide"			"40"
+		"wide"			"0"
 		"tall"			"40"
 		"visible"		"0"
 		"enabled"		"0"
@@ -64,7 +64,7 @@
 		"xpos"			"-10"
 		"ypos"			"r40"
 		"zpos"			"1"
-		"wide"			"100"
+		"wide"			"0"
 		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"0"
@@ -81,16 +81,14 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
 		"xpos"			"-1"		[$WIN32]
-		"xpos_minmode"	"-15"		[$WIN32]
 		"ypos"			"r60"	[$WIN32]
-		"ypos_minmode"		"r40"	[$WIN32]
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
-		"zpos"			"1"		
-		"wide"			"109"
+		"zpos"			"1"
+		"wide"			"0"
 		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"
 		"image"				"../hud/character_red_bg_clipped"	
 		"teambg_2"			"../hud/character_red_bg_clipped"
@@ -104,15 +102,11 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"0"	[$WIN32]
-		"xpos_minmode"	"0"	[$WIN32]
-		"ypos"			"r214"	[$WIN32]
-		"ypos_minmode"	"r88"	[$WIN32]
-		"zpos"			"2"		
-		"wide"			"100"
-		"wide_minmode"	"52"
-		"tall"			"200"
-		"tall_minmode"	"102"
+		"xpos"			"0"
+		"ypos"			"r150"
+		"zpos"			"2"
+		"wide"			"75"
+		"tall"			"150"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

@@ -4,6 +4,8 @@ To install, unzip the files to your "Steam\steamapps\[username]\team fortress 2\
 
 Change Log:
 
+Version 1.91: Minor fixes for Tale of Two Cities update.
+
 Version 1.90: Updated to support Scream Fortress 2013, show Soldier buff icons, and optionally support 3D player models.
 
 Version 1.82: Slight adjustments to DemomanCharge and DemomanPipes meters so they no longer touch.

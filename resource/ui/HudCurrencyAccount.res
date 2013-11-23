@@ -13,16 +13,16 @@
 		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"labelText"		"%currency%"
-	}	
+	}
 	
 	"CurrencyShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyShadow"
 		"font"			"m0refont27"
-		"fgcolor"		"Black"
+		"fgcolor"		"0 0 0 255"
 		"xpos"			"1"
 		"ypos"			"1"
 		"zpos"			"3"
@@ -30,9 +30,9 @@
 		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"labelText"		"%currency%"
-	}	
+	}
 	
 	"WhiteBG"
 	{
@@ -47,7 +47,7 @@
 		"enabled"		"0"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"TanLight"
-	}	
+	}
 	
 	"GreenBG"
 	{

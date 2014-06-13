@@ -1,6 +1,6 @@
 "Resource/UI/disguise_menu/HudMenuSpyDisguise.res"
 {
-	"MainBackground"	
+	"MainBackground"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MainBackground"
@@ -17,7 +17,7 @@
 	}
 	
 	"TitleLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"HudFontGiantBold"

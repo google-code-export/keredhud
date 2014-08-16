@@ -26,8 +26,8 @@
 		
 		"xpos"			"232"
 		"ypos"			"c-8"
-		"wide"			"17"
-		"tall"			"17"
+		"wide"			"16"
+		"tall"			"16"
 		
 		"font"			"CrossHairRequest1"
 		"labelText"		"+"
@@ -42,10 +42,10 @@
 		"enabled"		"1"
 		"zpos"			"2"
 		
-		"xpos"			"230"
+		"xpos"			"231"
 		"ypos"			"c-8"
-		"wide"			"20"
-		"tall"			"17"
+		"wide"			"18"
+		"tall"			"16"
 		
 		"font"			"CrossHairRequest2"
 		"labelText"		"+"

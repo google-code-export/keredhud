@@ -4,6 +4,8 @@ To install, unzip the files to your "Steam\steamapps\[username]\team fortress 2\
 
 Change Log:
 
+Version 2.1: Update for Scream Fortress 2014. Updated scoreboards to include support and damage numbers.
+
 Version 2.0: Added map name to pub scoreboard and Eureka Effect teleport menu. Added a python script that can be used to generate code for an uber counter (see http://www.reddit.com/r/truetf2/comments/26fkuu/i_created_a_hud_based_meter_for_keeping_track_of/). You can use this to add an uber counter to your HUD if you want.
 
 Version 1.92: Removed killstreak notification. Slightly adjusted HudPlayerStatus (no visible effect).
